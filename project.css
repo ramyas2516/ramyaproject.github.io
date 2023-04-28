@@ -78,34 +78,39 @@ nav a:hover{
     border-radius: 10px;
     flex-direction: row;
     height: 100px;
-    line-height:10px;
+    line-height:20px;
    
    
     
+}
+.skill1-pr{
+    display: flex;
+    flex-direction: row;
+    margin-left: -100px;
+    margin-top: 30px;
 }
 
 .skill-pr h2{
     font-size: 2vh;
     color: red;
-    font-family: Titillium Web,sans-serif;;
+    font-family: Titillium Web,sans-serif;
+
 }
-.skill-pr ul{
+.skill1-pr ul{
     display: flex;
     flex-direction: row;
+    width: 100%;
     gap: 20px;
     
 }
-.skill-pr p{
+.skill1-pr p{
     white-space: nowrap;
 }
-.skill-pr ul li{
-       
-        font-size: 22px;
-        list-style: none;
-        padding: 10px;
-        font-weight: bold;
-       
-    
+.skill1-pr  li{
+     font-size: 25px;  
+    list-style: none;
+    font-family: Titillium Web,sans-serif;
+   
 }
 .middle{
     padding-top: 400px;
